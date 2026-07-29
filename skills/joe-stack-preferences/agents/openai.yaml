@@ -1,0 +1,4 @@
+interface:
+  display_name: "Joe Stack Preferences"
+  short_description: "Joe software stack defaults"
+  default_prompt: "Use joe-stack-preferences to choose stack, library, and architecture defaults for this project."
