@@ -12,7 +12,7 @@
 
 A curated, public look at **how I build** — my design system and engineering standards, packaged as [Claude Code](https://claude.ai/code) / Codex **agent skills**.
 
-These two skills are lifted from my private personal-skills library and shared as a **portfolio reference**: the connective tissue that keeps my agents on-brand and on-standard. It's a window into how I work — not a drop-in plugin.
+These skills are lifted from my private personal-skills library and shared as a **portfolio reference**: the connective tissue that keeps my agents on-brand and on-standard. It's a window into how I work — not a drop-in plugin.
 
 ## What's inside
 
@@ -25,14 +25,23 @@ My design system for [joeblack.nyc](https://joeblack.nyc) / the Agent Marketplac
 - **`preview/`** — HTML specimens (color, type, spacing, components)
 - **`ui_kits/website/`** — a hi-fi, interactive recreation of the joeblack.nyc hub in reusable JSX components
 
-### ⚙️ `joe-stack-preferences` — my engineering standards
+### ⚙️ `joe-stack-preferences` — stack & architecture defaults
 
-The opinionated defaults I hold my code — and my agents — to.
+The opinionated stack choices I reach for.
 
 - **TypeScript-first** for agents, APIs, tools, bots, MCP servers, plugins, and web apps; Python when the task genuinely needs it
 - **Strict quality gates:** Biome + ESLint `strictTypeChecked` with unicorn / sonarjs / import-x / no-secrets, plus complexity and error-handling rules
 - A **cross-language rule-coverage matrix** (ruff/WPS ↔ Biome/ESLint)
 - Preferred libraries, AI-agent SDK patterns, and release tooling (Conventional Commits, release-please)
+
+### 🛠️ `engineering-standards` — how I execute
+
+The bar I hold code to, beyond which stack to pick.
+
+- **Code-generation principles** — confirm scope, no ASCII banner comments, readable-over-commented, never touch unmentioned files
+- **Strict Python type-safety** + a **wemake-python-styleguide** philosophy: refactor to satisfy the linter, never blanket-disable
+- The **Tier 0-3 Verification Gate** — static → tests → adversarial diff review → behavioral runtime check before anything is "done"
+- **PR/merge autonomy** and **git-worktree discipline** for parallel agent work
 
 ## Why this exists
 
