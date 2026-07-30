@@ -10,7 +10,7 @@
 
 ---
 
-A curated, public look at **how I build** — my design system and engineering standards, packaged as [Claude Code](https://claude.ai/code) / Codex **agent skills**.
+A curated, public look at **how I build** — my design system, engineering standards, and agentic workflow, packaged as [Claude Code](https://claude.ai/code) / Codex **agent skills**.
 
 These skills are lifted from my private personal-skills library and shared as a **portfolio reference**: the connective tissue that keeps my agents on-brand and on-standard. It's a window into how I work — not a drop-in plugin.
 
@@ -42,6 +42,15 @@ The bar I hold code to, beyond which stack to pick.
 - **Strict Python type-safety** + a **wemake-python-styleguide** philosophy: refactor to satisfy the linter, never blanket-disable
 - The **Tier 0-3 Verification Gate** — static → tests → adversarial diff review → behavioral runtime check before anything is "done"
 - **PR/merge autonomy** and **git-worktree discipline** for parallel agent work
+
+### 🤖 `agentic-workflow` — how I orchestrate agents
+
+Running coding agents as a disciplined system, not ad-hoc prompting.
+
+- **Process-first** — brainstorm before designing, systematic debugging before fixing, research docs + community before proposing
+- **Semantic code navigation** (LSP-backed) + **context efficiency** (sandboxed MCP execution, ~99% fewer tokens)
+- **Persistent cross-session memory**, a **routed auto-updating skills library**, and **issue-tracker-driven** task management
+- **Multi-provider** — one shared `AGENTS.md` drives Claude Code, Codex, Cursor, and Gemini identically
 
 ## Why this exists
 
