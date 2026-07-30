@@ -44,3 +44,13 @@ For any task involving linting, formatting, ESLint/Biome config, or adding/evalu
 - **"Does TypeScript have an equivalent for WPS rule X?"** or **checking gap coverage** → read `linting-coverage-matrix.md`.
 - **Adding a new rule** → check `linting-coverage-matrix.md` first to verify it isn't already covered or explicitly unclosable, then use `biome-eslint.md` for the config context.
 - **Strict mode / wemake-equivalent setup** → `biome-eslint.md` has the complete strict config (strictTypeChecked + unicorn + sonarjs + import-x + no-secrets).
+
+## Related public skills
+
+These defaults pair with hands-on skills in my public [`agent-skills`](https://github.com/joeblackwaslike/agent-skills) library:
+
+- Architecture → [domain-driven-design](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/domain-driven-design) · [solid-principles](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/solid-principles)
+- AI-agent stack (TS AI SDK, MCP) → [working-with-vercel-ai-sdk](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-vercel-ai-sdk) · [working-with-vercel](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-vercel)
+- MCP &amp; plugin development → [developing-claude-code-plugins](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/developing-claude-code-plugins) · [multi-provider-plugins](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/multi-provider-plugins)
+- Release automation → [working-with-release-please](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-release-please)
+- Code tooling → [working-with-serena](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-serena) · [working-with-dolt](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-dolt)

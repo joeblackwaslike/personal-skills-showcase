@@ -108,3 +108,13 @@ Default for feature work; **mandatory** when running parallel agents/subagents o
 - Use `jq` for JSON in shell — never inline Python parsers.
 - **Write files directly** rather than through `osascript`/interpolated heredocs (both mangle `$` variables).
 - Single-line edits to existing files: read first, then a targeted replace — never rewrite the whole file.
+
+## Related public skills
+
+The methodology above is backed by hands-on skills in my public [`agent-skills`](https://github.com/joeblackwaslike/agent-skills) library:
+
+- Agentic method → [best-practices-for-agentic-development](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/best-practices-for-agentic-development)
+- Architecture → [domain-driven-design](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/domain-driven-design) · [solid-principles](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/solid-principles)
+- Git / PR discipline → [git-github-workflows](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/git-github-workflows) · [working-with-git](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-git) · [working-with-github](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-github)
+- CI &amp; releases → [working-with-github-actions](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-github-actions) · [working-with-release-please](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-release-please)
+- Shell → [working-with-bash](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-bash) · [working-with-zsh](https://github.com/joeblackwaslike/agent-skills/tree/main/skills/working-with-zsh)
